@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>
+      Home
+    </title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/742148980682784793/777359687779614780/image0.jpg"/>
+    <link rel="stylesheet" href="/eggs.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"/>
+  </head>
+  <body>
+    <div
+      class="w3-sidebar w3-bar-block w3-border-right"
+      style="display:none"
+      id="mySidebar"
+    >
+      <button onclick="w3_close()" class="w3-bar-item w3-large">
+        Close &times;
+      </button>
+      <a href="/home" class="w3-bar-item w3-button small">Home</a>
+      <a href="/about" class="w3-bar-item w3-button small">About</a>
+      <a href="/github" class="w3-bar-item w3-button small">GitHub</a>
+      <a href="/puck" class="w3-bar-item w3-button small">Puck</a>   
+    </div>
+    <div>
+      <button class="w3-button w3-xlarge w3-animate-left" onclick="w3_open()">
+        ☰
+      </button>
+    </div>
+    <div class="w3-container">
+      <h1 class="w3-center w3-animate-top">
+        Gold's Projects
+      </h1>
+    </div>
+    <div class="w3-animate-bottom projects">
+      <p>
+        <a class="popup" href="https://discord.com/oauth2/authorize?client_id=767087798804283403&scope=bot&permissions=8">Puck</a>
+      </p>
+      <p class="light">
+        <b class="desc">A multi-purpose Discord bot</b>
+        <br>
+        <br>
+        Python uptime: <b id="uptime">Offline</b>
+        <br>
+        JavaScript uptime: <b id="uptime2">Syncing</b>
+      </p>
+      <script
+          type="text/javascript"
+          src="/script.js"
+        ></script>
+      <script
+          type="text/javascript"
+          src="/scriptt.js"
+        ></script>
+      <p>
+        <a class="popup" href="https://github.com/GoldenJayz/Roblox-Verification">Discord-Roblox Verification</a>
+      </p>
+      <p class="light">
+        <b class="desc">A Discord bot that Verifies a user's Roblox account!</b>
+        <br>
+        <br>
+        Crafted in Node.js
+      </p>
+      <p>
+        <a class="popup" href="https://github.com/GoldenJayz/Group-Roblox-Verification">Roblox-Group Verification</a>
+      </p>
+      <p class="light">
+        <b class="desc">A Discord bot that Verifies a user's Roblox group!</b>
+        <br>
+        <br>
+        Crafted in Node.js
+      </p>
+      <p>
+        <a class="popup" href="https://github.com/GoldenJayz/sitepinger">Site-pinger</a>
+      </p>
+      <p class="light">
+        <b class="desc">A pinger that tells if your website is up or down!</b>
+        <br>
+        <br>
+        Crafted in Python
+      </p>
+    </div>
+  </body>
+  <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--
+	Author by FreeHTML5.co
+	Twitter: https://twitter.com/fh5co
+	Facebook: https://fb.com/fh5co
+	URL: https://freehtml5.co
+-->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/slick.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      href="https://cdn.discordapp.com/attachments/742148980682784793/777359687779614780/image0.jpg"
+    />
+    <title>About me!</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+      .topnav {
+        position: relative;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        box-shadow: 0px 2px 20px grey;
+        font-family: "Raleway", sans-serif;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: "Raleway", sans-serif;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: rgb(82, 82, 82);
+        font-family: "Raleway", sans-serif;
+      }
+
+      .topnav a.active {
+        background-color: #027fd3;
+        color: white;
+      }
+
+      .topnav-centered a {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .topnav-right {
+        float: right;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav a,
+        .topnav-right {
+          float: none;
+          display: block;
+        }
+
+        .topnav-centered a {
+          position: relative;
+          top: 0;
+          left: 0;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div
+      class="w3-sidebar w3-bar-block w3-border-right"
+      style="display:none"
+      id="mySidebar"
+    >
+      <button onclick="w3_close()" class="w3-bar-item w3-large small">
+        Close &times;
+      </button>
+      <a href="/home" class="w3-bar-item w3-button small">Home</a>
+      <a href="/about" class="w3-bar-item w3-button small">About</a>
+      <a href="/github" class="w3-bar-item w3-button small">GitHub</a>
+      <a href="/puck" class="w3-bar-item w3-button small">Puck</a>   
+    </div>
+    <div>
+      <button class="w3-button w3-xlarge w3-animate-left" onclick="w3_open()">
+        ☰
+      </button>
+    </div>
+    <!-- Navigation end -->
+
+    <!-- About me -->
+    <section class="fh5co-about-me">
+      <div class="about-me-inner site-container">
+        <article class="portfolio-wrapper">
+          <div class="portfolio__img">
+            <img
+              src="https://cdn.glitch.com/3a6d66e9-8f0c-4599-b825-ae4aedf2f09b%2Fmeinthemorning.jpg?v=1607864924524"
+              class="about-me__profile"
+              alt="about me profile picture"
+            />
+          </div>
+          <div class="portfolio__bottom">
+            <div class="portfolio__name">
+              <span>J</span>
+              <h2 class="universal-h2">aden/Gold</h2>
+            </div>
+            <p>
+              Jaden/Gold is a programmer. He uses Python as his main language
+              and JavaScript as his secondary. He crafts Discord bots and web
+              pages!
+            </p>
+          </div>
+        </article>
+        <div class="about-me__text">
+          <div class="about-me-slider">
+            <div class="about-me-single-slide">
+              <h2 class="universal-h2 universal-h2-bckg">About me</h2>
+              <p>
+                <span>I</span> used to be obsessed with crafting GFX's. I was
+                hired by a significant amount of people on Roblox to craft them
+                these works of art. I then later got into programming. I soon
+                later fell in love with it. I started learning GFX and
+                Programming in the middle of 2018.
+              </p>
+            </div>
+            <div class="about-me-single-slide">
+              <h2 class="universal-h2 universal-h2-bckg">Who is he?</h2>
+              <p>
+                <span>H</span>i, I am Jaden or otherwise known as Gold. I love
+                coding and playing video games. I live in Massachusetts and grew
+                up here ever since I was little. I never moved from where I grew
+                up. I am currently 14 years old when writing this. I am planning
+                to shoot my shot at getting into a college like MIT or WPI. I am
+                sure when I get out of High School my skill would meet the
+                criteria.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-me-bckg"></div>
+    </section>
+    <!-- About me end -->
+
+    <!-- Social -->
+    <section class="fh5co-social">
+      <div class="site-container">
+        <div class="social">
+          <h5 style="text-align:center;margin-left:4in;">
+            Add me on Discord: Gold#1337
+          </h5>
+        </div>
+      </div>
+    </section>
+    <!-- Social -->
+    <!-- Scripts -->
+    <script src="/jquery.min.js"></script>
+    <script src="/slick.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+  <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+</html>

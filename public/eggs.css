@@ -1,0 +1,47 @@
+.projects {
+  margin-top: 1in;
+  margin-left: 6in;
+}
+
+
+.projects {
+  font-size: 30px;
+  color: #303030;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+span {
+  font-size: 15px;
+  color: gray;
+  float: left;
+}
+
+.light {
+  font-size: 15px;
+  color: gray;
+}
+
+.desc {
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.popup:hover {
+  font-size: 41px;
+  text-shadow: 1px 1px 6px;
+}
+
+.small {
+  font-size: 20px;
+}
